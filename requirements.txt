@@ -1,0 +1,3 @@
+agents==1.4.0
+openai==2.35.1
+streamlit==1.57.0
