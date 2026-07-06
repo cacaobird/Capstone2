@@ -1,10 +1,10 @@
-import csv
-import os
-import random
-import re
-import openai
-from textblob import TextBlob
-from datetime import datetime
+import csv # For storing ticketnumbers and their statuses
+import os # For functions to ineract with the operating system
+import random #To generate new ticket numbers without conflicting with existing ones
+import re # Regulate expression module for the 6-digit tickt numbers
+import openai # GPT 4.0 LLM stuff
+from textblob import TextBlob # For better sentiment detection
+from datetime import datetime # For timestamping feedback 
 
 TICKET_DB_FILE = 'support_tickets.csv'
 FEEDBACK_LOG_FILE = 'feedback_log.csv'
